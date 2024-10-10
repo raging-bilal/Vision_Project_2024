@@ -1,0 +1,1257 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: #0e1815ac;
+    color: rgb(131, 27, 27);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    padding: 10px 20px; /* Add padding for better spacing */
+    background-color: #f9f9f9; /* Example header background color */
+}
+
+.logo {
+    flex: 1; /* Allow logo to take available space */
+}
+
+nav {
+    flex: 2; /* Allow nav to take more space than logo */
+}
+
+
+
+
+
+.cta {
+    margin-left: 20px; /* Space between nav and CTA button */
+    background: hsl(132, 79%, 41%); /* CTA button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions for background and scale */
+}
+
+.cta:hover {
+    background-color: hsl(132, 79%, 36%); /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cta {
+    background: hsl(132, 79%, 41%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background-color: #a51728;
+} */
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(13, 9, 9);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    background: #17a2b8;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #c32426;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.feature {
+    background: #f4f4f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.feature h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #ce2b2b;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------For VISION CLASSES-------------------------------------------------------------- */
+
+
+/* Common Reset & Styling: Same as before */
+
+/* Hero Section for Vision Classes */
+.hero-vision-classes {
+    background-image: url('../images/hero-education.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(12, 9, 9);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-vision-classes h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Overview Section */
+.overview {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+}
+
+.category-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+}
+
+.category-card img {
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+
+.category-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.category-card .btn-secondary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category-card .btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+/* Extend the common styles in your styles.css file to include the styles for the Vision Community page.------------------- */
+
+
+/* General Reset & Styles: Same as before */
+
+/* Hero Section for Vision Community */
+.hero-vision-community {
+    background-image: url('../images/hero-community.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(12, 10, 10);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-vision-community h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-vision-community .btn {
+    background: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-vision-community .btn:hover {
+    background-color: #b83131;
+}
+
+/* Community Initiatives Section */
+.initiatives {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.initiatives h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.initiatives-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.initiative-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+}
+
+.initiative-card img {
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+
+.initiative-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.initiative-card p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.initiative-card .btn-secondary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.initiative-card .btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial-story {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-story p {
+    font-size: 1.1em;
+}
+
+
+
+
+
+/* 
+
+VISION FINANCES CSS---------------------------------------------------------------------- */
+
+
+/* Hero Section for Vision Finances */
+.hero-vision-finances {
+    background-image: url('../images/hero-finances.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(13, 9, 9);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-vision-finances h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-vision-finances .btn {
+    background: #17a2b8;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-vision-finances .btn:hover {
+    background-color: #961313;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+}
+
+.service-card img {
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.service-card .btn-secondary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.service-card .btn-secondary:hover {
+    background-color: #b30015;
+}
+
+/* Tools & Resources Section */
+.resources {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.resource-links {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-links li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.resource-links li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resource-links li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* Add the necessary styles for the NIOS page by extending the existing CSS file.----------------FOR NIOS SECTION OF VISION CLASSES FOLDER------------------------------------------------------------------------------------ */
+
+
+/* Hero Section for NIOS */
+.hero-nios {
+    background-image: url('../images/hero-nios.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(11, 6, 6);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-nios h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-nios .btn {
+    background: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-nios .btn:hover {
+    background-color: #ab143f;
+}
+
+/* Course Information Section */
+.course-info {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.course-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: left;
+}
+
+.course-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    font-size: 1.1em;
+}
+
+.course-card .btn-secondary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.course-card .btn-secondary:hover {
+    background-color: #b30000;
+}
+
+/* Course Features Section */
+.course-features {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.course-features h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.course-features ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.course-features ul li {
+    margin: 10px 0;
+}
+
+/* Resources Section */
+.resources {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.resource-links {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-links li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.resource-links li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resource-links li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Add the necessary styles for the Entrance Preparation page by extending the existing styles.css file.
+CSS FOR VISION CLASSES/ ENTRANCE PREPARATION---------------------------------------------- */
+
+
+
+/* Hero Section for Entrance Preparation */
+.hero-entrance-preparation {
+    background-image: url('../images/hero-entrance.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(16, 11, 11);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-entrance-preparation h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-entrance-preparation .btn {
+    background: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-entrance-preparation .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Overview Section */
+.overview {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.exam-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.exam-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: left;
+}
+
+.exam-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.exam-card p {
+    font-size: 1.1em;
+}
+
+.exam-card .btn-secondary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.exam-card .btn-secondary:hover {
+    background-color: #b30000;
+}
+
+/* Study Resources Section */
+.resources {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.resource-links {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-links li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.resource-links li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resource-links li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add the necessary styles for the CBSE/AMU Board page by extending the existing styles.css file.------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+/* Hero Section for CBSE/AMU Board */
+.hero-cbse {
+    background-image: url('../images/hero-cbse.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(9, 7, 7);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-cbse h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-cbse .btn {
+    background: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-cbse .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Subjects Section */
+.subjects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subjects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.subjects .subject-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subjects .subject-list li {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Syllabus Section */
+.syllabus {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.syllabus h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Teachers Section */
+.teachers {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.teachers h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.teacher-profile {
+    margin: 20px 0;
+    background: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add the necessary styles for the Computer Courses page by extending the existing styles.css file.
+-------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+
+
+/* Hero Section for Computer Courses */
+.hero-computer {
+    background-image: url('../images/hero-computer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(17, 15, 15);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-computer h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-computer .btn {
+    background: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-computer .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.courses .course-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.courses .course-list li {
+    margin: 20px 0;
+}
+
+/* Resources Section */
+.resources {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Add the necessary styles for the Government Job Preparations page by extending the existing styles.css file.
+---------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Hero Section for Government Job Preparations */
+.hero-government {
+    background-image: url('../images/hero-government-jobs.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(19, 17, 17);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-government h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-government .btn {
+    background: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-government .btn:hover {
+    background-color: #e64a19;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.courses .course-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.courses .course-list li {
+    margin: 20px 0;
+}
+
+/* Resources Section */
+.resources {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Add the necessary styles for the Language Proficiency Education page in your styles.css file.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------- */
+
+
+
+
+/* Hero Section for Language Proficiency Education */
+/* Hero Section Styles */
+/* Language Proficiency Page Styles */
+
+/* Hero Section Styles */
+.hero-language {
+    background-image: url('../images/hero-language-proficiency.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: #130e0e; /* White text color */
+    padding: 100px 20px; /* Padding */
+    text-align: center; /* Center text */
+    position: relative; /* For pseudo-elements */
+}
+
+.hero-language::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Overlay under text */
+}
+
+.hero-language h1 {
+    font-size: 3.5em; /* Large heading size */
+    margin: 0; /* No margin */
+    z-index: 2; /* On top of overlay */
+}
+
+.hero-language .btn {
+    background: #ff5722; /* Button color */
+    color: white; /* Button text color */
+    padding: 15px 30px; /* Button padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Space above button */
+    display: inline-block; /* Align button as block */
+    z-index: 2; /* On top of overlay */
+}
+
+/* Language Proficiency Section Styles */
+.language-proficiency {
+    padding: 50px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    background-color: white; /* Light background for contrast */
+}
+
+.language-proficiency h2 {
+    font-size: 2.5em; /* Heading size */
+    margin-bottom: 20px; /* Space below */
+}
+
+.language-proficiency p {
+    font-size: 1.2em; /* Paragraph size */
+    margin-bottom: 20px; /* Space below */
+}
+
+.language-proficiency ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.language-proficiency ul li {
+    font-size: 1.2em; /* List item size */
+    margin: 10px 0; /* Space between items */
+}
+
+.language-proficiency ul li a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.language-proficiency ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Styles */
+footer {
+    background: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding */
+}
+
+.social-media {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.social-media li {
+    display: inline; /* Inline items */
+    margin: 0 10px; /* Space between items */
+}
+
+.social-media a {
+    color: white; /* White links */
+    text-decoration: none; /* Remove underline */
+}
+
+
+
+
+
+
+
+/* CSS for login.html and register.html------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Styles for Login Page */
+header {
+    background: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+h1.login-title {
+    color: #333; /* Dark gray color for headings */
+    text-align: center;
+    margin-top: 40px;
+}
+
+main.login-container {
+    max-width: 400px; /* Limit width of the form */
+    margin: 40px auto; /* Center the form */
+    background: white; /* White background for form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+form.login-form {
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+}
+
+input[type="text"].login-input, input[type="password"].login-input {
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button.login-button {
+    background: #007bff; /* Primary button color */
+    color: white;
+    border: none; /* No border */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+button.login-button:hover {
+    background: #0056b3; /* Darker shade on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #007bff; /* Same color as header */
+    color: white;
+}
+
+/* Styles for Register Page */
+h1.register-title {
+    color: #333; /* Dark gray color for headings */
+    text-align: center;
+    margin-top: 40px;
+}
+
+main.register-container {
+    max-width: 400px; /* Limit width of the form */
+    margin: 40px auto; /* Center the form */
+    background: white; /* White background for form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+form.register-form {
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+}
+
+input[type="text"].register-input, input[type="password"].register-input, input[type="email"].register-input {
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button.register-button {
+    background: #28a745; /* Bootstrap success color */
+    color: white;
+    border: none; /* No border */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+button.register-button:hover {
+    background: #218838; /* Darker shade on hover */
+}
